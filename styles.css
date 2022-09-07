@@ -8,9 +8,11 @@ header{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px 40px;
+    margin-bottom: 50px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     background-color: white;
+    font-size: larger;
 }
 li{
     display:inline;
@@ -19,8 +21,8 @@ a{
     text-decoration: none;
 }
 .social-icon{
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     padding: 8px;
     color:rgb(89, 111, 211)
 }
@@ -30,12 +32,12 @@ a{
 .form{
     background-color: white;
     width: 100vw;
-    margin:20px auto;
+    margin:30px auto;
     padding: 10px;
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     box-sizing: border-box;
-    max-width: 600px;
+    max-width: 50%;
 }
 .submit-button{
     background-color: rgb(89, 111, 211);
@@ -44,23 +46,25 @@ a{
     border-bottom-right-radius: 6px;
     border: 1px rgb(89, 111, 211);
     width: 200px;
-    height: 28px;
-    margin-right: 40px;
+    height: 40px;
+    margin-right: 50px;
     text-align:center; 
     vertical-align:middle;
-    padding: 4px;
+    padding: 6px;
+    font-size: large;
 }
 .submit-button:hover{
     background-color: rgb(140, 154, 216);
 }
 h2{
     font-weight:normal;
+    font-size: 25px;
 }
 .error{
     color:rgba(255, 0, 0, 0.587);
-    font-size: 10px;
+    font-size: 13px;
     text-align: justify;
-    margin-left: 40px;
+    margin-left: 50px;
 }
 .task-input{
     color:rgb(207, 207, 207);
@@ -69,8 +73,9 @@ h2{
     border-bottom-left-radius: 6px;
     border: 1px solid rgb(147, 143, 143);
     width: 100%;
-    margin-left: 40px;
-    padding: 4px;
+    margin-left: 50px;
+    padding: 6px;
+    font-size: large;
 }
 .form-task-input{
     display:flex;
@@ -120,3 +125,25 @@ h4{
     flex-wrap: wrap;
     align-items: center;
 }
+.error-edit{
+    color:rgba(255, 0, 0, 0.587);
+    font-size: 15px;
+    text-align: center;
+    margin-left: 40px;
+}
+.back-btn{
+    color:white;
+    background-color: black;
+    width: 250px;
+    height: 50px;
+    margin: 50px;
+    border-radius: 6px;
+    font-size: 20px;
+}
+.back-btn:hover{
+    background-color: grey;
+    border-color: grey;
+}
+
+    
+    

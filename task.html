@@ -35,8 +35,29 @@
     </header>
     
     <main>
-        
+        <form class="form">
+            <h2>Edit Task</h2>
+            <div>
+                <label>Task ID</label>
+                <p>123456789</p>
+            </div>
+            <div>
+                <label class="left">Name</label>
+                <input class="right" type="text" name="name" placeholder="Take out trashes">
+            </div>
+            <div>
+                <label>Completed</label>
+                <input type="checkbox">
+            </div>
+            <button>Edit</button>
+            <p class="error-edit">There Was An Error</p>
+        </form>
+
+        <a href="index.html">
+            <button class="back-btn">
+                Back To Task
+            </button>
+        </a>
     </main>
-    
 </body>
 </html>
